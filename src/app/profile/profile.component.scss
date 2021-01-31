@@ -1,0 +1,487 @@
+.profile-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.profile-img-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 470px;
+    // background-image: radial-gradient(circle at 19% 27%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 14% 15%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 52% 35%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 52% 35%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 57% 90%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 21% 88%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 15% 0%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 0% 66%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 41% 50%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 61% 49%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 62% 81%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 20% 47%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 26% 82%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 46% 9%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 47% 6%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 43% 28%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 67% 100%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),linear-gradient(90deg, rgb(99, 57, 212),rgb(145, 54, 196));
+    background-image: radial-gradient(circle at 52% 33%, rgba(17, 17, 17,0.08) 0%, rgba(17, 17, 17,0.08) 33.333%,rgba(74, 74, 74,0.08) 33.333%, rgba(74, 74, 74,0.08) 66.666%,rgba(130, 130, 130,0.08) 66.666%, rgba(130, 130, 130,0.08) 99.999%),radial-gradient(circle at 70% 65%, rgba(129, 129, 129,0.08) 0%, rgba(129, 129, 129,0.08) 33.333%,rgba(95, 95, 95,0.08) 33.333%, rgba(95, 95, 95,0.08) 66.666%,rgba(60, 60, 60,0.08) 66.666%, rgba(60, 60, 60,0.08) 99.999%),radial-gradient(circle at 97% 89%, rgba(21, 21, 21,0.08) 0%, rgba(21, 21, 21,0.08) 33.333%,rgba(89, 89, 89,0.08) 33.333%, rgba(89, 89, 89,0.08) 66.666%,rgba(156, 156, 156,0.08) 66.666%, rgba(156, 156, 156,0.08) 99.999%),linear-gradient(0deg, rgb(17, 9, 206),rgb(65, 75, 237));
+}
+
+.profile-img-bg-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 40px;
+}
+
+.profile-img-bg {
+    background: url('../../assets/profile-pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 145px;
+    height: 145px;
+    border: 4px solid white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 40px 6px #30303082;
+}
+
+.profile-img-bg:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 40px 6px #303030;
+}
+
+.profile-name {
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    padding: 15px 0px 5px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.profile-classification {
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    // padding: 15px 0px;
+    text-align: center;
+    color: #ffffffa6;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 6px;
+}
+
+.profile-about-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile-about {
+    padding: 70px 0px 30px 0px;
+    width: 60%;
+}
+
+.about-heading {
+    text-align: center;
+    /* font-weight: bold; */
+    font-family: "Quicksand", sans-serif;
+    font-size: 28px;
+    padding-bottom: 25px;
+}
+
+.about-content {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.profile-about-intro {
+    padding: 15px 0px 30px 0px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid lightgrey;
+    margin-top: 70px;
+}
+
+.location-intro,
+.phone-intro,
+.email-intro {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.intro-title {
+    width: 100%;
+    padding: 5px 0px;
+    color: slategrey;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+}
+
+.intro-value {
+    width: 100%;
+    padding: 5px 0px;
+    color: rgb(143, 143, 143);
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-edu-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 30px 0px;
+    background: #fff5f5;
+    padding-bottom: 60px;
+    // background-image: linear-gradient(134deg, rgba(1, 1, 1,0.02) 0%, rgba(1, 1, 1,0.02) 16%,transparent 16%, transparent 76%,rgba(58, 58, 58,0.02) 76%, rgba(58, 58, 58,0.02) 100%),linear-gradient(215deg, rgba(166, 166, 166,0.02) 0%, rgba(166, 166, 166,0.02) 33%,transparent 33%, transparent 79%,rgba(111, 111, 111,0.02) 79%, rgba(111, 111, 111,0.02) 100%),linear-gradient(303deg, rgba(215, 215, 215,0.02) 0%, rgba(215, 215, 215,0.02) 7%,transparent 7%, transparent 90%,rgba(192, 192, 192,0.02) 90%, rgba(192, 192, 192,0.02) 100%),linear-gradient(302deg, rgba(113, 113, 113,0.02) 0%, rgba(113, 113, 113,0.02) 34%,transparent 34%, transparent 73%,rgba(65, 65, 65,0.02) 73%, rgba(65, 65, 65,0.02) 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+}
+
+.profile-edu-title {
+    width: 80%;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.profile-edu {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.edu-card {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 40px 6px #ededed;
+    border: 1px solid lightcyan;
+}
+
+.edu-title {
+    width: 100%;
+    padding: 5px 0px;
+    padding-bottom: 20px;
+    color: slategrey;
+    font-size: 14px;
+    font-family: "Quicksand", sans-serif;
+    // color: #3cbb3c;
+    font-weight: bold;
+}
+
+.edu-name {
+    width: 100%;
+    padding: 5px 0px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+}
+
+.edu-year {
+    width: 100%;
+    padding: 5px 0px;
+    color: slategrey;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.edu-location {
+    width: 100%;
+    padding: 5px 0px;
+    color: slategrey;
+    font-size: 14px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.edu-score {
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.score-title {
+    width: 100%;
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 12px;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.score-title-1,
+.score-title-2 {
+    width: fit-content;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.score-value {
+    width: 100%;
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 12px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.profile-exp-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 30px 0px;
+    padding-bottom: 60px;
+}
+
+.profile-exp-title {
+    width: 80%;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.profile-exp {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.exp-card {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px 0px;
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 40px 6px #f0f0f0;
+    border: 1px solid lightcyan;
+}
+
+.exp-card-block-1,
+.exp-card-block-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.exp-card-block-1 {
+    width: 35%;
+}
+
+.exp-card-block-2 {
+    width: 60%;
+}
+
+.exp-start-month {
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+}
+
+.exp-start-year {
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 26px;
+    padding: 8px 0px;
+    border-bottom: 1px solid #ededed;
+}
+
+.exp-role-block {
+    width: 100%;
+}
+
+.exp-company-name {
+    width: 100%;
+    text-align: right;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    padding: 8px 0px;
+}
+
+.exp-role-name {
+    width: 100%;
+    text-align: right;
+    font-family: "Quicksand", sans-serif;
+}
+
+.exp-desc-title {
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+
+.exp-desc-content {
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    color: grey;
+    padding-top: 8px;
+}
+
+.profile-skill-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 30px 0px;
+    background: #fff5f5;
+    padding-bottom: 60px;
+}
+
+.profile-skill-title {
+    width: 80%;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.profile-skill {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-block {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px 0px;
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 40px 6px #f6f6f6;
+    border: 1px solid lightcyan;
+}
+
+.skill-title {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.p-icon,
+.t-icon,
+.a-icon {
+    padding: 10px;
+    border-radius: 50%;
+    background: whitesmoke;
+    margin: 0px 10px;
+}
+
+.skill-content-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skill-content {
+    width: 11%;
+    // box-shadow: 2px 2px 30px 6px #f1f1f1;
+    border: 1px solid #ebe6e6;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.profile-footer-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+    background-image: radial-gradient(circle at top right, rgb(207, 24, 144) 0%, rgb(207, 24, 144) 4%,rgb(188, 23, 139) 4%, rgb(188, 23, 139) 8%,rgb(168, 21, 134) 8%, rgb(168, 21, 134) 12%,rgb(149, 20, 129) 12%, rgb(149, 20, 129) 16%,rgb(129, 18, 123) 16%, rgb(129, 18, 123) 20%,rgb(110, 17, 118) 20%, rgb(110, 17, 118) 24%,rgb(90, 15, 113) 24%, rgb(90, 15, 113) 28%,rgb(71, 14, 108) 28%, rgb(71, 14, 108) 100%);
+}
+
+.thank-you-msg {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+// Common CSS for Devices
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
+.profile-about {
+    width: 95%;
+}
+
+.profile-about-intro {
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.location-intro,
+.phone-intro,
+.email-intro {
+    width: 80%;
+    margin-bottom: 60px;
+}
+
+.intro-title {
+    text-align: initial;
+}
+
+.intro-value {
+    justify-content: flex-start;
+}
+
+.profile-edu {
+    flex-wrap: wrap;
+}
+
+.edu-card {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.exp-card-block-1 {
+    width: 100%;
+}
+
+.exp-card-block-2 {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.exp-card {
+    width: 100%;
+}
+
+.profile-skill {
+    width: 100%;
+}
+
+.skill-content {
+    width: 22%;
+}
+
+}

@@ -1,0 +1,139 @@
+<div class="profile-container">
+    <div class="profile-img-block">
+        <div class="profile-img-bg-block">
+            <div class="profile-img-bg"></div>
+            <div class="profile-name">Sagar Desai</div>
+            <div class="profile-classification">MEAN Stack Developer</div>
+        </div>
+    </div>
+    <div class="profile-about-block">
+        <div class="profile-about">
+            <div class="about-heading">About</div>
+            <div class="about-content">MEAN Stack Developer, UI Designer/Developer - having 3+ years of experience in web apps development. Good exposure on Angular framework, UI Designing, NodeJS backend development.</div>
+        </div>
+        <div class="profile-about-intro">
+            <div class="location-intro">
+                <div class="intro-title">WORK LOCATION</div>
+                <div class="intro-value"><mat-icon class="a-icon">location_on</mat-icon> Chennai, Tamil Nadu</div>
+            </div>
+            <div class="phone-intro">
+                <div class="intro-title">PHONE NUMBER</div>
+                <div class="intro-value"><mat-icon class="a-icon">phone</mat-icon> 8971221151</div>
+            </div>
+            <div class="email-intro">
+                <div class="intro-title">E-MAIL</div>
+                <div class="intro-value"><mat-icon class="a-icon">email</mat-icon> sagardesai627@gmail.com</div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-edu-block">
+        <div class="profile-edu-title">Education</div>
+        <div class="profile-edu">
+            <div class="edu-card">
+                <div class="edu-title">High-School</div>
+                <div class="edu-name">Vijaya Vittala Vidya Shala</div>
+                <div class="edu-year">2011</div>
+                <div class="edu-location">Mysore, KA</div>
+                <div class="edu-score">
+                    <div class="score-title">
+                        <span class="score-title-1">PERCENT</span>
+                        <span class="score-title-2">81 %</span>
+                    </div>
+                    <div class="score-value">
+                        <mat-progress-bar mode="determinate" value="81"></mat-progress-bar>
+                    </div>
+                </div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-title">Pre-University</div>
+                <div class="edu-name">Vijaya Vittala P.U.Composite College</div>
+                <div class="edu-year">2013</div>
+                <div class="edu-location">Mysore, KA</div>
+                <div class="edu-score">
+                    <div class="score-title">
+                        <span class="score-title-1">PERCENT</span>
+                        <span class="score-title-2">78 %</span>
+                    </div>
+                    <div class="score-value">
+                        <mat-progress-bar mode="determinate" value="78"></mat-progress-bar>
+                    </div>
+                </div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-title">Degree</div>
+                <div class="edu-name">The National Institue Of Engineering</div>
+                <div class="edu-year">2017</div>
+                <div class="edu-location">Mysore, KA</div>
+                <div class="edu-score">
+                    <div class="score-title">
+                        <span class="score-title-1">CGPA</span>
+                        <span class="score-title-2">7.53</span>
+                    </div>
+                    <div class="score-value">
+                        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-exp-block">
+        <div class="profile-exp-title">Work Experience</div>
+        <div class="profile-exp">
+            <div class="exp-card">
+                <div class="exp-card-block-1">
+                    <div class="exp-start-month">AUGUST</div>
+                    <div class="exp-start-year">2019 - Present</div>
+                    <div class="exp-role-block">
+                        <div class="exp-company-name">Infosys BPM Ltd</div>
+                        <div class="exp-role-name">Web Developer</div>
+                    </div>
+                </div>
+                <div class="exp-card-block-2">
+                    <div class="exp-desc-title">JOB DESCRIPTION</div>
+                    <div class="exp-desc-content">Working as a Web Developer, providing services on UI enchancements, web page design & development, prototype design and presentations.<br>
+                    Currently working under - <b>'Novartis Pharmaceutical Project'</b> where we provide services for their 40+ web applications and several internal web applications. Overall delivering quality and responsive development based on user requirements.</div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-exp">
+            <div class="exp-card">
+                <div class="exp-card-block-1">
+                    <div class="exp-start-month">SEPTEMBER</div>
+                    <div class="exp-start-year">2017 - 2019, July</div>
+                    <div class="exp-role-block">
+                        <div class="exp-company-name">ExcelSoft Technologies Pvt. Ltd</div>
+                        <div class="exp-role-name">Web Developer</div>
+                    </div>
+                </div>
+                <div class="exp-card-block-2">
+                    <div class="exp-desc-title">JOB DESCRIPTION</div>
+                    <div class="exp-desc-content">Worked as a web developer, under the projects based on e-learning domain - <b>'Surala Project', 'Pearson My IT Labs Project', 'IOE Recognition Mobile App'</b>. Mainly the work was based on desgin and development using design support tools and to deliver a responsive web application.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-skill-block">
+        <div class="profile-skill-title">Skillsets</div>
+        <div class="profile-skill">
+            <div class="skill-block">
+                <div class="skill-title"><mat-icon class='p-icon'>code</mat-icon> Programming Skills</div>
+                <div class="skill-content-block">
+                    <div class="skill-content" *ngFor='let skill of pSkills'>
+                        <div class="skill-content-text">{{skill}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-block">
+                <div class="skill-title"><mat-icon class='t-icon'>build</mat-icon> Tools Familiar With</div>
+                <div class="skill-content-block">
+                    <div class="skill-content"  *ngFor='let tools of tSkills'>
+                        <div class="skill-content-text">{{tools}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-footer-block">
+        <div class="thank-you-msg">Thank You</div>
+    </div>
+</div>
